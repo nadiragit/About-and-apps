@@ -100,3 +100,33 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .primary-link {
+    border-radius: 4px;
+    padding: 15px 48px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    display: block;
+    text-align: center;
+  }
+}
